@@ -3,8 +3,8 @@ const { default: axios } = require("axios")
 const appUrl = "https://fullnode.mainnet.sui.io"
 const claimUrl = "https://api-walletapp.waveonsui.com/api/claim";
 
-const address = "0x12d9ad540c146caf7935504abbed01e471d43882ae6a5c359294aa74c793e6ff"
-const token = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOjE2Mzc4NjYsInJpZCI6IjRiNzQ0NjMyLTZmNGYtNDE2MS1hMzgyLTJiZTM0MTA1YjYzNiIsIndpZCI6MTY0OTExMywiYWRkcmVzcyI6IjB4MTJkOWFkNTQwYzE0NmNhZjc5MzU1MDRhYmJlZDAxZTQ3MWQ0Mzg4MmFlNmE1YzM1OTI5NGFhNzRjNzkzZTZmZiIsImRldmljZUlkIjoiZTVjZTNlNTEtMTI3MS00MDkxLThhN2ItMWQ4ZTgzNjI1MTA5IiwiaWF0IjoxNzE1NTI2NjQ1LCJqdGkiOiJjZTlmOWIxMC0xMDcxLTExZWYtYWQ5OS1kYmVhZjFkYThlOGYifQ.ae8D8gsKVN3dxaaEUBD7JmBYqmYRvUqqildv_wl_AP8"
+const address = "Your Wallet Address"
+const token = "Your Access Token"
 
 const getLastClaimTime = async () => {
     try {
